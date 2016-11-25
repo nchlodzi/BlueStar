@@ -1,0 +1,625 @@
+body, html {
+	overflow: auto;
+	font-family: 'Roboto';
+}
+.white-text {
+	color: #f7f7f7;
+}
+.blue-text {
+	color: blue;
+}
+.no-padding {
+	padding: 0;
+}
+.no-margin-xs {
+	margin: 0;
+}
+// .no-margin-xs {
+// 	@media (max-width: 992px) {
+// 		margin: 0;
+// 	}  
+// }
+
+.main.home,
+.main.about {
+	.protectors {
+		background-image: url('../../assets/img/protektory-bg.png');
+		background-size: cover;
+		height: 470px;
+	max-height:470px;
+		padding-top: 94px;
+	}
+	.uchwyty {
+		background-image: url('../../assets/img/uchwyty-bg.png');
+		background-size: cover;
+		height: 470px;
+	max-height:470px;
+		padding-top: 94px;
+	}
+	.ladowarki {
+		background-image: url('../../assets/img/ladowarki-bg.png');
+		background-size: cover;
+		height: 470px;
+	max-height:470px;
+		padding-top: 94px;
+	}
+	.baterie {
+		background-image: url('../../assets/img/baterie-bg.png');
+		background-size: cover;
+		height: 470px;
+		max-height:470px;
+		padding-top: 94px;
+	}
+	.sluchawki {
+		background-image: url('../../assets/img/sluchawki-bg.png');
+		background-size: cover;
+		height: 470px;
+		max-height:470px;
+		padding-top: 94px;
+	}
+	.office {
+		background-image: url('../../assets/img/office-bg.png');
+		background-size: cover;
+		height: 470px;
+		max-height:470px;
+		padding-top: 94px;
+	}
+	.people {
+		background-image: url('../../assets/img/people-bg.png');
+		background-size: cover;
+		height: 470px;
+		max-height:470px;
+		padding-top: 94px;
+	}
+	.blue-bg {
+		background-image: url('../../assets/img/blue-bg.png');
+		background-size: cover;
+		height: 470px;
+		max-height:470px;
+		padding-top: 94px;
+	}
+	.iphone {
+		background: url('../../assets/img/iPhone.png') no-repeat;
+		height: 470px;
+		background-position: 80% -30%;
+		max-height:470px;
+		padding-top: 94px;
+	}
+	@media (max-width: 992px) {
+		.protectors {
+			background: url('../../assets/img/bg-sg1-mobile.png') no-repeat;
+			background-size: cover;
+			background-position: bottom;
+			height: 700px;
+			max-height:700px;
+			padding-top: 94px;
+		}
+		.uchwyty {
+			background: url('../../assets/img/bg-sg2-mobile.png') no-repeat;
+			background-size: cover;
+			background-position: bottom;
+			height: 700px;
+			max-height:700px;
+			padding-top: 94px;
+		}
+		.ladowarki {
+			background: url('../../assets/img/bg-sg4-mobile.png') no-repeat;
+			background-size: cover;
+			background-position: bottom;
+			height: 700px;
+			max-height:700px;
+			padding-top: 94px;
+		}
+		.baterie {
+			background: url('../../assets/img/bg-sg5-mobile.png') no-repeat;
+			background-size: cover;
+			background-position: bottom;
+			height: 700px;
+			max-height:700px;
+			padding-top: 94px;
+		}
+		.sluchawki {
+			background: url('../../assets/img/bg-sg3-mobile.png') no-repeat;
+			background-size: cover;
+			background-position: bottom;
+			height: 700px;
+			max-height:700px;
+			padding-top: 94px;
+		}
+		.office {
+			background-image: url('../../assets/img/bg-office-mobile.png');
+			background-size: cover;
+			height:850px;
+			max-height:850px;
+			padding-top: 94px;
+			}
+		.people {
+			background-image: url('../../assets/img/bg-people-mobile.png');
+			background-size: cover;
+			height: 850px;
+			max-height:850px;
+			padding-top: 94px;
+			//background-position: center -50%;
+		}
+		.blue-bg {
+			background-image: url('../../assets/img/bg-blue-mobile.png');
+			background-size: cover;
+			height: 850px;
+			max-height:850px;
+			padding-top: 94px;
+			//background-position: center;
+		}
+		.iphone {
+			background: url('../../assets/img/bg-iPhone-mobile.png') no-repeat;
+			height: 850px;
+			background-position: bottom;
+			max-height:850px;
+			padding-top: 94px;
+		}
+	}
+	.aa {
+		width: 380px;
+		text-align: left;
+
+		&.left {
+			float: left;
+		}
+		&.right {
+			float: right;
+		}
+		.title {
+			font-family: 'Prime-light';
+			font-weight: 300;
+			font-size: 45px;
+		}
+		.subtitle {
+			font-family: 'Prime-light';
+			color: #328bca;
+			font-size: 22px;
+		}
+		p {
+			font-size: 14px;
+			font-weight: 300;
+		}
+		@media only screen and (max-width: 768px) {
+			width: auto;
+		}
+		.colors {
+			text-transform: uppercase;
+			list-style: none;
+			display: inline;
+			padding-left: 10px;
+			.color-dot{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				&.gray {
+					background-color: #d2cddf;
+				}
+				&.pink {
+					background-color: #d47fc3;	
+				}
+				&.purple {
+					background-color: #4d1dc5;
+				}
+				&.red {
+					background-color: #ea3c44;
+				}
+				&.green {
+					background-color: #51cb6e;
+				}
+				&.yellow {
+					background-color: #e8c14b;
+				}
+			}
+		}
+	}
+	.quote {
+		font-family: 'Prime-light';
+		font-size: 40px;
+		line-height: 1;
+		width: 400px;
+		margin: 20px 0 10px 0;
+		max-width: 100%;
+		@media (max-width: 992px) {
+			padding-top: 30px;
+		}
+	}
+	.see-also {
+		background-color:#fff;
+		padding: 50px 0;
+		@media (max-width: 992px){
+			padding: 30px 0;
+		}
+		h4 {
+			color: #ced1d3;
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+		ul {
+			list-style: none;
+		  	margin-left: 0;
+		 	padding-left: 0;
+		 	li {
+		 		padding-left: 1em;
+  				text-indent: -1em;
+  				&:before {
+  					font-family: 'Glyphicons Halflings';
+  					content: "\e258";
+  					padding-right: 5px;
+  					color: #328bcb;
+  					font-size: 10px;
+  				}
+  				a {
+  					color: #1a1e20;
+  					text-decoration: none;
+  					&:hover {
+  						font-weight: 700;
+  					}
+  				}
+		 	}
+		}
+	}
+}
+
+.main.lang {
+	margin-bottom: 50px;	
+	.languages {
+		overflow:visible;
+		height:100%;
+		h2 {
+			text-align: center;
+			font-family: 'Prime-light';
+			font-size: 45px;
+
+		}
+		ul {
+			list-style: none;
+			text-align: center;
+			@media (min-width: 992px) {
+				li:nth-child(11),
+				li:nth-child(12) {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+	.language {
+		padding: 15px 0;
+		border-bottom: 1px solid #ced1d3;;
+		margin-left: 10px;
+		text-align: left;
+		@media (max-width: 991px) {
+			width: 80%;
+    		margin: 0 auto;
+		}
+		.flag {
+			width: 30px;
+			height: 20px;
+			display: inline-block;
+			margin-right: 10px;
+
+			&.polish {
+				background-image: url('/../../assets/img/flags/poland.png');
+				background-size: cover;
+			}
+			&.english {
+				background-image:  url('/../../assets/img/flags/gb.png');
+				background-size: cover;
+			}
+			&.slovak {
+				background-image:  url('/../../assets/img/flags/slovakia.png');
+				background-size: cover;
+			}
+			&.german {
+				background-image:  url('/../../assets/img/flags/germany.png');
+				background-size: cover;
+			}
+			&.french {
+				background-image:  url('/../../assets/img/flags/france.png');
+				background-size: cover;
+			}
+			&.spanish {
+				background-image:  url('/../../assets/img/flags/spain.png');
+				background-size: cover;
+			}
+			&.romanian {
+				background-image:  url('/../../assets/img/flags/romania.png');
+				background-size: cover;
+			}
+			&.italian {
+				background-image:  url('/../../assets/img/flags/italy.png');
+				background-size: cover;
+			}
+			&.hungarian {
+				background-image:  url('/../../assets/img/flags/hungary.png');
+				background-size: cover;
+			}
+			&.croatian {
+				background-image:  url('/../../assets/img/flags/croatia.png');
+				background-size: cover;
+			}
+			&.bulgarian {
+				background-image:  url('/../../assets/img/flags/bulgaria.png');
+				background-size: cover;
+			}
+			&.greek {
+				background-image:  url('../../assets/img/flags/greece.png');
+				background-size: cover;
+			}
+		}
+	}
+	.banner {
+		background: url('../../assets/img/bg-sell.png') no-repeat;
+		height: 400px;
+		background-size: cover;
+		padding: 140px;
+		margin-top: 30px;
+		text-align: center;
+		h2 {
+			font-family: 'Prime-light';
+		}
+		.button {
+			margin: 20px auto;
+		}
+		@media (max-width: 991px) {
+			background: url('../../assets/img/bg-sell-mobile.png') no-repeat;
+			padding: 50px 0 0 30px;
+			height: 1100px;
+			background-size: cover;
+
+			h2 {
+				font-size: 88px;
+				text-align: left;
+				max-width: 500px;
+			}
+		}
+	}
+}
+
+.main {
+	&.product-list {
+		select {
+			background-color: #fff;
+			background-image: url('');
+			border: none;
+			border-bottom: 2px solid gray;
+			margin-bottom: 20px;
+			width: 200px;
+		}
+		.product {
+			padding: 10px;
+			img {
+				max-width: 200px;
+				height: 200px;
+			}
+			.name {
+				display: block;
+			}
+		}
+		.banner {
+			background-image: url('');
+			background-size: cover;
+			padding: 100px;
+			text-align: left;
+		}
+	}
+}
+
+.main.categories {
+	margin-bottom: 100px;
+	.category {
+		width: 170px;
+		float: left;
+		position: absolute;
+		bottom: 0;
+		.category-name {
+			font-family: 'Prime-light';
+			font-size: 30px;
+			text-align: left;
+			font-weight: 500px;
+
+		}
+		.category-description {
+			font-size: 13px;
+			text-align: left;
+		}
+	}
+	.well {
+	    margin-bottom: 0;
+	    border: none;
+	    border-radius: 0;
+	    position: relative;
+    	height: 250px;
+    	max-width: 400px;
+	    
+	    &.power-banks {
+	    	background: url('../../assets/img/bg-powerbank.png');
+	    	background-size: cover;
+
+	    }
+	    &.chargers {
+	    	background: url('../../assets/img/bg-chargers.png');
+	    	background-size: cover;
+	    }
+	    &.batteries {
+	    	background: url('../../assets/img/bg-batteries-color.png');
+	    	background-size: cover;
+	    	img {
+	    		position: absolute;
+	    		top: -10px;
+	    		right: 0;
+	    	}
+	    }
+	    &.headphones {
+	    	background: url('../../assets/img/bg-headphones-color.png');
+	    	background-size: cover;
+	    	img {
+	    		position: absolute;
+	    		bottom: -100px;
+	    		right: -5px;
+	    	}
+	    }
+	    &.holders {
+	    	background: url('../../assets/img/bg-holders-color.png');
+	    	background-size: cover;
+	    	img {
+	    		position: absolute;
+	    		top: -45px;
+	    		right: -15px;
+	    	}
+	    }
+	    &.glass {
+	    	background: url('../../assets/img/bg-szklo.png');
+	    	background-size: cover;
+	    }
+	    &.protectors {
+	    	background: url('../../assets/img/bg-protectors-color.png');
+	    	background-size: cover;
+	    	img {
+	    		position: absolute;
+	    		top: 10px;
+	    		right: -15px;
+	    	}
+	    }
+	    &.car-chargers {
+	    	background: url('../../assets/img/bg-car-chargers.png');
+	    	background-size: cover;
+	    }
+	}
+	.tall {
+	    height: 500px;
+	}
+	@media (max-width: 991px) {
+    	.well {
+    		max-width: 100%;
+    		min-height: 500px;
+	    	&.power-banks {
+		    	background: url('../../assets/img/bg-powerbank.png') no-repeat;
+		    	background-size: cover;
+		    }
+		    &.chargers {
+		    	background: url('../../assets/img/bg-chargers.png') no-repeat;
+		    	background-size: cover;
+		    }
+		    &.batteries {
+		    	background: url('../../assets/img/bg-mobile-batteries.png') no-repeat;
+		    	background-size: cover;
+		    }
+		    &.headphones {
+		    	background: url('../../../../assets/img/bg-mobile-headphones.png') no-repeat;
+		    	background-size: cover;
+		    }
+		    &.holders {
+		    	background: url('../../assets/img/bg-mobile-holders.png') no-repeat;
+		    	background-size: cover;
+		    	background-position: right;
+		    }
+		    &.glass {
+		    	background: url('../../assets/img/bg-szklo.png') no-repeat;
+		    	background-size: cover;
+		    }
+		    &.protectors {
+		    	background: url('../../assets/img/bg-mobile-prrotectors.png') no-repeat;
+		    	background-size: cover;
+		    }
+		    &.car-chargers {
+		    	background: url('../../assets/img/bg-car-chargers.png') no-repeat;
+		    	background-size: cover;
+		    }
+	    }
+	    .tall {
+		    height: 950px;
+		}
+	}	
+}
+.main.contact {
+	position: relative;
+	.map {
+		background: url('../../assets/img/mapa.png') no-repeat;
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 470px;
+	}
+	.contact-form {
+		background: url('../../assets/img/dane-tele.png') no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 570px;
+		@media (max-width: 992px) {
+			background: url('../../assets/img/bg-form-mobile.png') no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 1200px;
+			}
+		.address {
+			color: #fff;
+			padding: 134px 40px 100px 20.5%;
+			@media (max-width: 1650px) {
+				padding: 134px 40px 100px 15%;
+			}
+			@media (max-width: 1550px) {
+				padding: 134px 40px 100px 10%;
+			}
+			@media (max-width: 992px) {
+				padding: 50px 40px 50px 10%;
+			}
+			@media (max-width: 330px) {
+				padding: 50px 40px 50px 5%;
+			}
+			h2,
+			h4 {
+				font-family: 'Prime-light';
+				font-weight: 500;
+			}
+			h2 {
+				font-size: 48px;
+				line-height: 46px;
+				margin-bottom: 0px;
+			}
+			h4 {
+				font-size: 24px;
+				margin-top: 7px;
+			}
+			.adressBox{
+				margin-top: 20px;
+				p {
+					line-height: 0.9;
+					margin-bottom: 6px;
+				}
+				.mail {
+					font-weight: bold;
+				}
+			}	
+		}
+		.form {
+			padding-top: 50px;
+			input, textarea {
+				color: #fff;
+				width: 100%;
+				background-color: inherit;
+				border: none;
+				border-bottom: 3px solid rgba(11, 47, 71, 0.3);
+				padding: 20px;
+
+				&::placeholder {
+					color: #fff;
+				}
+			}
+			label {
+				width: 100%;
+				padding-top: 0 20px;
+				color: #fff;
+			}
+			button {
+				min-width: 100%;
+				color: #328bcb;
+				&:hover {
+					color: #fff;
+					//	background-color:
+				}
+			}
+		}
+	}
+}

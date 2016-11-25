@@ -1,0 +1,43 @@
+.button {
+	height: auto;
+	width: 186px;
+	max-width: 300px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 15px 40px;
+	margin-top: 10px;
+
+
+	&.blue {
+		background-color: #328bcb;
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	&.blue:hover {
+		background-color: white;
+		border: 1px solid #328bcb;
+		a {
+			color: #328bcb;
+			text-decoration: none;
+		}
+	}
+	&.white {
+		background-color: #fff;
+		border: 1px solid #328bcb;
+		a {
+			color: #328bcb;
+			text-decoration: none;
+		}
+	}
+	&.white:hover {
+		background-color: #328bcb;
+		border: 1px solid #fff;
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+	}    
+}

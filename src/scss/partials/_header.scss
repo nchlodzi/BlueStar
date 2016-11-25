@@ -1,0 +1,33 @@
+.navbar {
+  border: none;
+  border-radius: 0 !important;
+  height: 72px;
+  margin-bottom: 0;
+}
+.navbar-default {
+    background-color: #2d3439;
+    .navbar-nav {
+    	background-color: inherit;
+      padding: 10px 0 0 0;
+    	li a {
+    		color: #fff;
+        &:hover {
+          color: #e3e3e3;
+        }
+    	}
+	}
+	.navbar-toggle {
+		border: none;
+		.icon-bar {
+      background-color: #fff;
+    }
+	}
+}
+
+// .logo {
+//   margin: -58px 0 0 -100px;
+//   @include position(absolute, 50% 0 0 50%);
+//   img {
+
+//   }
+// }
